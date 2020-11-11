@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@redwoodjs/api": "^0.20.0",
+    "axios": "^0.21.0",
+    "reddit": "^1.2.1"
+  }
+}
