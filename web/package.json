@@ -16,10 +16,8 @@
     "@redwoodjs/forms": "^0.20.0",
     "@redwoodjs/router": "^0.20.0",
     "@redwoodjs/web": "^0.20.0",
-    "@theme-ui/presets": "^0.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "theme-ui": "^0.3.3"
+    "react-dom": "^16.13.1"
   }
 }
