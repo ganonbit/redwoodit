@@ -15,6 +15,7 @@ export const schema = gql`
   type Query {
     subreddits: [Subreddit!]!
     subreddit(id: Int!): Subreddit
+    getSubreddit(subredditId: String!): Subreddit!
   }
 
   input CreateSubredditInput {

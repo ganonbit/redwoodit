@@ -11,6 +11,12 @@ export const subreddit = ({ id }) => {
   })
 }
 
+export const getSubreddit = ({ input }) => {
+  return db.subreddit.create({
+    data: foreignKeyReplacement(input),
+  })
+}
+
 export const createSubreddit = ({ input }) => {
   return db.subreddit.create({
     data: foreignKeyReplacement(input),
